@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: url('1738619366781.png')no-repeat center center fixed;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    direction: rtl;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0,1);
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #1877f2;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.8rem;
+    background: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background: #166fe5;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.login-link a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.canva-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 2px 8px rgba(63,69,81,0.16);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.canva-container::after {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.canva-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.canva-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.account-text {
+    color: white;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    direction: ltr;
+}
+
+input[type="tel"] {
+    direction: ltr;
+}
+
+.account-text a {
+    color: white;
+}

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif';
+}
+
+body {
+    background: url('1738614875818.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    color: white; /* جعل الكتابة باللون الأبيض */
+    direction: rtl;
+}
+
+.container {
+    background-color: transparent; /* خلفية شفافة */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    margin-top: 20px;
+    position: relative;
+    top: -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .profit-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.container .profit-info p {
+    margin-bottom: 0;
+    color: white; /* جعل الكتابة باللون الأبيض داخل الحاوية */
+    font-size: 18px; /* تكبير حجم النص */
+}
+
+.profit-info .daily-profit {
+    margin-right: -300px; /* تحريك الجملة الأولى إلى اليمين */
+}
+
+.profit-info .total-profit {
+    margin-left: -400px; /* تحريك الجملة الثانية إلى اليسار */
+}
+
+.home-image {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 0px;
+    position: relative;
+    margin-bottom: auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.button {
+    background-color: blue; /* جعل الأزرار باللون الأزرق */
+    color: white; /* جعل الكتابة داخل الأزرار باللون الأبيض */
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:first-child {
+    margin-right: -300px;
+}
+
+.button:last-child {
+    margin-left: -400px;
+}
+
+.button:hover {
+    background-color: darkblue;
+}
