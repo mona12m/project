@@ -6,7 +6,7 @@ if (!isset($_SESSION['user_id'])) {
 }
 
 $user_id = $_SESSION['user_id'];
-$conn = new mysqli('localhost', 'username', 'password', 'my_project');
+$conn = new mysqli('localhost', 'root', '', 'my_project'); // تحديث بيانات الاعتماد
 
 // تحقق من الاتصال بقاعدة البيانات
 if ($conn->connect_error) {
@@ -49,9 +49,9 @@ $conn->close();
             <p class="total-profit">The general total of profits: <span id="total-profit"><?php echo $total_profit; ?></span> USD</p>
         </div>
         <div class="button-container">
-        <a href="#" class="button">تنزيل التطبيق</a>
-        <a href="#" class="button">تواصل مع خدمة العملاء</a>
+            <a href="#" class="button">تنزيل التطبيق</a>
+            <a href="#" class="button">تواصل مع خدمة العملاء</a>
+        </div>
     </div>
-</div>
 </body>
 </html>
